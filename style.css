@@ -5,19 +5,38 @@
 }
 
 body {
- background-color: lightcyan; 
+ background-color: #f1ffc4; 
 }
 
 /* STYLE TEXT */
 
 h1 {
-  color: navy;
+  color: #3a3f7b;
 }
 
 /* STYLE IMAGES */
-
+.homeImg {
+  width: 10em;
+  height: 20em;
+  object-fit: cover;
+}
 /* STYLE NAV BAR */
+li {
+  display: inline;
+}
 
+li a {
+  text-decoration: none;
+  background-color: #f5efff;
+  color: #a77ff0;
+  font-size: 1.3em;
+  /* padding: 1em; */
+}
+
+li a:hover {
+  background-color: #a77ff0;
+  color: #f5efff;
+}
 /* STYLE BUTTONS */
 
 /* ADD MORE! */
