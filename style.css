@@ -5,13 +5,14 @@
 }
 
 body {
- background-color: #f1ffc4; 
+ background-color: #f5efff; 
 }
 
 /* STYLE TEXT */
 
 h1 {
   color: #3a3f7b;
+  text-shadow: 2px 2px #e875c2;
 }
 
 /* STYLE IMAGES */
@@ -19,15 +20,25 @@ h1 {
   width: 10em;
   height: 20em;
   object-fit: cover;
+  border-radius: 10%;
+  border: 4px solid #3a3f7b;
+}
+
+.homeImgMid {
+  border: 4px solid #e875c2;
 }
 /* STYLE NAV BAR */
+nav {
+  background-color: #f1ffc4;
+}
+
 li {
   display: inline;
 }
 
 li a {
   text-decoration: none;
-  background-color: #f5efff;
+  background-color: #f1ffc4;
   color: #a77ff0;
   font-size: 1.3em;
   /* padding: 1em; */
@@ -35,7 +46,7 @@ li a {
 
 li a:hover {
   background-color: #a77ff0;
-  color: #f5efff;
+  color: #f1ffc4;
 }
 /* STYLE BUTTONS */
 
